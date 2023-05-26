@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Suculentas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Loja de Suculentas</h1>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Produtos em Destaque</h2>
+      <div class="product">
+        <img src="./assets/planta pires.jpg" alt="Suculenta 1">
+        <h3>Suculenta 1</h3>
+        <p>O Aeonium tabuliforme, ou planta-pires,
+           é uma suculenta com o formato de roseta,
+            no tom verde claro, além de caule bem curto,
+             que deixa as folhas perto do substrato.
+              Originária das Ilhas Canárias,
+               a planta entra em dormência no verão.
+                Quem não sabe desta peculariedade,
+                pode imaginar que a suculenta está "morrendo",
+                 mas, neste período, ela poupa o gasto de energia
+                  e diminui a sua condição metabólica, suspendendo
+                   assim o seu desenvolvimento. Ela volta à ativa no outono e no inverno.</p>
+        <p>Preço: R$ XX,XX</p>
+        <button class="btn">Adicionar ao Carrinho</button>
+      </div>
+
+      <div class="product">
+        <img src="./assets/aenium.jpg" alt="Suculenta 2">
+        <h3>Suculenta 2</h3>
+        <p>Uma das suculentas mais queridas do momento,
+           o Aeonium haworthii é uma espécie que cresce
+            rapidamente e produz inúmeras brotações a partir
+             de seu caule. Dessa forma, adquire um formato de roseta,
+              em que as folhas se organizam em torno de um eixo central.
+               Pode ainda ganhar um aspecto de arvoreta, que lembra um bonsai.
+                Muito resistente, a suculenta pode ser cultivada dentro de casa,
+                 desde que receba luz natural por algumas horas. </p>
+        <p>Preço: R$ XX,XX</p>
+        <button class="btn">Adicionar ao Carrinho</button>
+      </div>
+
+      <!-- Adicione mais produtos aqui conforme necessário -->
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <p>Entre em contato conosco para mais informações ou dúvidas:</p>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Todos os direitos reservados &copy; 2023</p>
+  </footer>
+</body>
+</html>
