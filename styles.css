@@ -67,7 +67,7 @@ radius
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
-    radius: 11px;
+    border-radius: 11px;
   }
   
   .product h3 {
