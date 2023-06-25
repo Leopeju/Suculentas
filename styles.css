@@ -19,7 +19,7 @@ body {
   }
   
   nav ul {
-    list-style-type: none;
+    list-style-position:none;
     padding: 0;
     margin: 0;
   }
@@ -30,7 +30,7 @@ body {
   
   nav ul li a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: solid;
     padding: 10px;
     padding-bottom: 22px;
   }
